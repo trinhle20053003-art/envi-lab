@@ -1,0 +1,28 @@
+# Environments & Secrets
+.env
+backend/.env
+backend/venv/
+venv/
+.venv/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+artifacts/envi_tensorflow_model/__pycache__/
+backend/__pycache__/
+
+# Keras cache
+.keras/
+backend/.keras/
+
+# Node / Frontend
+frontend/node_modules/
+.DS_Store
+Thumbs.db
+
+# Cloudflared binaries & logs
+cloudflared.exe
+cloudflared.log
+

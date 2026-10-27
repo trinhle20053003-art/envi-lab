@@ -1,0 +1,11 @@
+.git
+.github
+backend/venv
+backend/.keras
+backend/__pycache__
+backend/**/__pycache__
+frontend/node_modules
+*.pyc
+*.pyo
+*.pyd
+.env

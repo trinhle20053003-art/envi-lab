@@ -1,0 +1,24 @@
+{
+  "finite_gradients": true,
+  "padding_invariant": true,
+  "decoder_causal": true,
+  "attention_ignores_pad": true,
+  "loss_ignores_pad": true,
+  "gpu_operation_device": "/job:localhost/replica:0/task:0/device:GPU:0",
+  "model_variable_device": "/job:localhost/replica:0/task:0/device:GPU:0",
+  "gpus": [
+    {
+      "compute_capability": [
+        7,
+        5
+      ],
+      "device_name": "Tesla T4"
+    }
+  ],
+  "tensorflow": "2.21.0",
+  "keras": "3.13.2",
+  "parameters": 9171136,
+  "quality_verified": false,
+  "save_load_same_output": true,
+  "export_checked_sentences": 3
+}

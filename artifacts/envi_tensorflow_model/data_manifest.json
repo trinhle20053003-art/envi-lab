@@ -1,0 +1,36 @@
+{
+  "dataset": "IWSLT'15 English-Vietnamese TED",
+  "raw_counts": {
+    "train": 133317,
+    "validation": 1553,
+    "test": 1268
+  },
+  "used_counts": {
+    "test": 1177,
+    "validation": 1492,
+    "train": 115154
+  },
+  "source_overlap": 0,
+  "tokenizer_fit_split": "train only",
+  "test_reference_truncated": false,
+  "scope": "English <= 40 whitespace tokens, <= 96 source subword IDs including BOS/EOS",
+  "source_files": {
+    "train": {
+      "url": "https://raw.githubusercontent.com/stefan-it/nmt-en-vi/master/data/train-en-vi.tgz",
+      "sha256": "e50f5de7e6625a7dd1fe5793595e973e87fe955768006b00b3e1ef7f18c7793a"
+    },
+    "validation": {
+      "url": "https://raw.githubusercontent.com/stefan-it/nmt-en-vi/master/data/dev-2012-en-vi.tgz",
+      "sha256": "04a0b7ce677cea8ad9dac65bca9492db8183dcfefa458f820597dc46d7486dad"
+    },
+    "test": {
+      "url": "https://raw.githubusercontent.com/stefan-it/nmt-en-vi/master/data/test-2013-en-vi.tgz",
+      "sha256": "0bbf7cc1ddc4bed68946b005edf9471478445e7994586a277ad4a4b0bb24caa4"
+    }
+  },
+  "split_hashes": {
+    "test": "164dbc5e3fbdf36252565db9940a0b03e9e96b88e66c82f723204d5a3caffa9b",
+    "validation": "b6c7535bef93a6569710e6fbc6d9510e6a3e7ec25a8adcfd98c14bd7fa5484ef",
+    "train": "6f566173037621560841a9aa81b9366655281911c7db341b88de375f3f2b2ae4"
+  }
+}

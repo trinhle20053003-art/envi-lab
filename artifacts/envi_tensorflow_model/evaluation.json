@@ -1,0 +1,35 @@
+{
+  "mode": "full",
+  "test_sentences": 1177,
+  "bleu": 24.140455019166808,
+  "chrf_pp": 43.045737994260115,
+  "bleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+  "chrf_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+  "decoding": "greedy",
+  "by_source_length": {
+    "short_1_10": {
+      "n": 376,
+      "bleu": 26.20597158539632,
+      "chrf_pp": 43.6631176700952
+    },
+    "medium_11_20": {
+      "n": 449,
+      "bleu": 25.19335543700697,
+      "chrf_pp": 43.9506719123049
+    },
+    "medium_21_40": {
+      "n": 352,
+      "bleu": 22.83820910000467,
+      "chrf_pp": 42.24850670670062
+    }
+  },
+  "ended_fraction": 1.0,
+  "parameters": 9171136,
+  "tensorflow": "2.21.0",
+  "keras": "3.13.2",
+  "gpu_operation_device": "/job:localhost/replica:0/task:0/device:GPU:0",
+  "training_seconds_this_fit": 2303.5853724479675,
+  "automatic_screen_passed": true,
+  "quality_verified": false,
+  "note": "Verification tests code only; full metrics need manual translation review."
+}

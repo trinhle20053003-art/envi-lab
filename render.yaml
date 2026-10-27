@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: envi-lab
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    region: singapore
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"

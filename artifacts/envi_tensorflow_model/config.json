@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "mode": "full",
+  "vocab_size": 8000,
+  "embedding_dim": 256,
+  "encoder_units": 256,
+  "attention_units": 128,
+  "dropout": 0.2,
+  "batch_size": 64,
+  "epochs": 25,
+  "learning_rate": 0.001,
+  "max_words": 40,
+  "max_tokens": 96,
+  "limit_train": 0,
+  "limit_validation": 0,
+  "limit_test": 0
+}
